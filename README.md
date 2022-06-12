@@ -1,2 +1,13 @@
-# KLRotationAvg-InterpolationModel
-A novel approach for rotation averaging and rotation interpolation based on high-dimensional Kuramoto model.
+# Dynamic models for solving rotation averaging and rotation interpolation problems
+
+Data in the form of three-dimensional rotations are used in various spheres of engineering sciences, among which computer vision, robotics, computer graphics, etc. stand out. Such data describe different positions of objects in three-dimensional space and are most often presented mathematically in the form of unit quaternions, special orthogonal matrices, and Euler angles. Through the characteristic applications of rotations, scientists often encounter the need to calculate averages and interpolate rotations. In this paper, we introduce new dynamic algorithms to solve these problems. These algorithms are based on the well-known Kuramoto model, ie its generalization to several dimensions. The Kuramoto model and its various generalizations are applied in various scientific disciplines in solving various problems such as clustering of multivariate data, characterization of complex networks, graph coloring, solving the problem of consensus and coordination in certain non-Euclidean 
+spaces, etc. In this paper, we have proved the applicability of the multidimensional Kuramoto model to both the calculation of weight and non-weight averages and rotation interpolation. The accuracy of the created algorithms was compared with the established ways of calculating the average of rotations, which are geometric and arithmetic average of rotations, and it was found that this method gives almost identical results as the geometric average, differing only by 4 or 5 decimals. The interpolation of rotations was compared with a standard algorithm for creating spherical interpolation curves, which is the SLERP method. It was found that the rotation interpolation algorithm provides the same solutions as the SLERP method, ie it gives the shortest and most direct path between two rotations. In this paper, a software package was also created using the software development environment Wolfram Mathematica. Newly created algorithms can be used to control the movement of robots, and in addition, these algorithms can be used to create animations, optimize data in the form of three-dimensional rotations, as well as for various other applications.
+
+## Rotation averaging
+Introduced models for weighted and unweighted rotation averaging problem in paper (using SO(3) rotations as mathematical representations of rotations - but is applicable on all 3D representations):
+https://arxiv.org/pdf/2111.11723.pdf (IEEE Explore)
+
+## Rotation interpolation
+Introduced models for single and multiple rotation interpolation for 3D rotations represented with quaternions, SO(3) matrices and Euler angles:
+https://arxiv.org/pdf/2111.12549.pdf (Springer)
+https://iopscience.iop.org/article/10.1088/1757-899X/1208/1/012037/pdf (IOP)
