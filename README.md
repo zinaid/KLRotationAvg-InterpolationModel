@@ -5,9 +5,9 @@ spaces, etc. In this paper, we have proved the applicability of the multidimensi
 
 ## Rotation averaging
 Introduced models for weighted and unweighted rotation averaging problem in paper (using SO(3) rotations as mathematical representations of rotations - but is applicable on all 3D representations):
-https://arxiv.org/pdf/2111.11723.pdf (IEEE Explore)
+* https://arxiv.org/pdf/2111.11723.pdf (IEEE Explore)
 
 ## Rotation interpolation
 Introduced models for single and multiple rotation interpolation for 3D rotations represented with quaternions, SO(3) matrices and Euler angles:
-https://arxiv.org/pdf/2111.12549.pdf (Springer)
-https://iopscience.iop.org/article/10.1088/1757-899X/1208/1/012037/pdf (IOP)
+* https://arxiv.org/pdf/2111.12549.pdf (Springer)
+* https://iopscience.iop.org/article/10.1088/1757-899X/1208/1/012037/pdf (IOP)
